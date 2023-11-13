@@ -24,4 +24,5 @@
                 if (isValid()) {
                   window.location.href = "homepage.html";}
                 
+            });
         });
