@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script> //verificar!</script>
+</head>
+<body>
+    <div id="main-container">
+        <h1>Cadastrar Usuário</h1>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            <br>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+            <br>
+            <label for="lastname">Sobrenome</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome" required>
+            <br>
+            <label for="matricula">Matricula</label>
+            <input type="number" name="matricula" id="matricula" placeholder="Digite sua matricula" required>
+            <br>
+            <!-- !parte das senhas: -->
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha"required>
+            <br>
+            <label for="confirmasenha">Confirme a senha</label>
+            <input type="password" name="confirmasenha" id="confirmasenha" placeholder="Confirme sua senha"required>
+            <br>
+            <button type="submit" value="Registrar" id="btn-submit">Registrar</button>
+        </form>
+        <script src="cadastro.js" type="application/javascript"></script>
+    </div>
+    
+    <footer>
+        <p>&copy; Projeto Coleta Seletiva UFRN.</p>
+    </footer>
+</body>
+</html>
